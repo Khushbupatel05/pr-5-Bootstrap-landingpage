@@ -1,10 +1,10 @@
 
-import Nav from './assets/Components/Nav'
+import Header from './assets/Components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-   <Nav/>
+   <Header/>
   )
 }
 
