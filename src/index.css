@@ -2,3 +2,38 @@
     box-sizing: border-box;
     list-style: none;
 }
+.custom-nav-wrapper {
+    margin-top: 35px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-link {
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: white; /* adjust as needed */
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0 !important;
+  width: 30px;
+  height: 2px;
+  background-color: #c27b7f;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+    

@@ -3,26 +3,30 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <>
-      <header className='container'>
-        <div className='d-flex align-items-center justify-content-between'>  
+    <header>
+      <div className="container">
+        <div className="row">
+          <div className='custom-nav-wrapper d-flex align-items-center justify-content-between py-3 bg-primary'>
             <div>
-              <img src="" alt="" />
-              Logo
+              <img src="/image/wonted-logo.png" alt="logo" />
             </div>
             <nav>
-                <ul className='d-flex gap-2 fw-bold align-items-center justify-content-center'>
-                  <li>Home</li>
-                  <li>Feature</li>
-                  <li>Pricing</li>
-                  <li>Blog</li>
-                  <li>Contact</li>
-                </ul>
+              <ul className='d-flex align-items-center justify-content-center gap-3 fw-semibold pt-2 m-0 menu'>
+                <li className='nav-link'>Home</li>
+                <li className='nav-link'>Benefits</li>
+                <li className='nav-link'>Chapters</li>
+                <li className='nav-link'>Pricing</li>
+                <li className='nav-link'>Author</li>
+                <li className='nav-link'>Events</li>
+                <li className='nav-link'>Reviews</li>
+                <li className='nav-link'>Blog</li>
+                <li className='nav-link'>Contact</li>
+              </ul>
             </nav>
+          </div>
         </div>
-      </header>
-    </>
-  )
-}
-
+      </div>
+    </header>
+  );
+};
 export default Header
