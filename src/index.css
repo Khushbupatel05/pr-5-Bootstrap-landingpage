@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     box-sizing: border-box;
     list-style: none;
@@ -15,7 +16,7 @@
   position: relative;
   cursor: pointer;
   padding-bottom: 5px;
-  color: white; /* adjust as needed */
+  color: white; 
   transition: color 0.3s ease;
 }
 
@@ -35,5 +36,40 @@
 .nav-link:hover::after {
   opacity: 1;
 }
-
+.hero-section{
+  position: relative !important;
+  background-color: #f5ebe6;
+  padding-top: 200px !important;
+  padding-bottom: 100px;
+  overflow: hidden !important;
+  
+}
+.home-text{
+    letter-spacing: 4px;
+    color: #c27b7f;
+    font-weight: 600;
+    
+   
+}
+.text-heading{
+  font-size: 56px;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 600;
+  color: #2f4858;
+}
+.text-p{
+  color: #616162;
+}
+.input{
+  border: 0;
+    
+    box-shadow: 2px 0px 15px 5px rgba(1, 6, 33, 0.06);
+    padding: 15px 15px;
+    width: 300px;
+}
+.tital{
+  font-family: "Philosopher", sans-serif;
+  font-weight: 600;
+  color: #2f4858;
+}
     

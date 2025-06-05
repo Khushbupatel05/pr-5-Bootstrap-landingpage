@@ -1,17 +1,15 @@
 
-import React from 'react'
-
 const Header = () => {
   return (
     <header>
       <div className="container">
         <div className="row">
-          <div className='custom-nav-wrapper d-flex align-items-center justify-content-between py-3 bg-primary'>
+          <div className='custom-nav-wrapper d-flex align-items-center justify-content-between py-3 bg-white'>
             <div>
               <img src="/image/wonted-logo.png" alt="logo" />
             </div>
             <nav>
-              <ul className='d-flex align-items-center justify-content-center gap-3 fw-semibold pt-2 m-0 menu'>
+              <ul className='d-flex align-items-center justify-content-center gap-3 fw-semibold  m-0 menu'>
                 <li className='nav-link'>Home</li>
                 <li className='nav-link'>Benefits</li>
                 <li className='nav-link'>Chapters</li>
