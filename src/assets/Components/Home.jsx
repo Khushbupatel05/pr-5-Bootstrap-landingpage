@@ -14,7 +14,7 @@ const Home = () => {
                 </div>
                 <div>
                   <h1 className='text-capitalize mt-2 text-heading'>There is no friend as loyal as a book</h1>
-                  <p className='fs-4 mb-3 text-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.</p>
+                  <p className=' mb-3 text-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.</p>
                   <div>
                     <input type="email" name='email' placeholder='Enter Email' className='input rounded' />
                   </div>

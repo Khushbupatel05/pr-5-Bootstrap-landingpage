@@ -2,6 +2,11 @@
 *{
     box-sizing: border-box;
     list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+header{
+  position: absolute;
+  width: 100%;
 }
 .custom-nav-wrapper {
     margin-top: 35px !important;
@@ -19,7 +24,22 @@
   color: white; 
   transition: color 0.3s ease;
 }
-
+.achieve-item{
+  box-shadow: 2px 0px 15px 5px rgba(1, 6, 33, 0.06);
+}
+.achieve-icon{
+  width: 60px;
+  height: 60px;
+  background-color: #c27b7f;
+  color: #ffffff;
+  box-shadow: 3px 3px #876585;
+  transition: 0.3s;
+  font-size: 30px;
+}
+.achive-tital{
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+}
 .nav-link::after {
   content: "";
   position: absolute;
@@ -59,6 +79,7 @@
 }
 .text-p{
   color: #616162;
+  font-size: 20px;
 }
 .input{
   border: 0;
@@ -71,5 +92,51 @@
   font-family: "Philosopher", sans-serif;
   font-weight: 600;
   color: #2f4858;
+}
+.section-divider{
+  width: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #8e5759;
+  opacity: 0.4;
+ 
+}
+.section-divider::before{
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: #c27b7f;
+  top: -9px;
+  opacity: 0.4;
+  right: 50%;
+  transform: rotate(45deg);
+}
+.section-divider::after{
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: #c27b7f;
+  top: -9px;
+  left: 45%;
+  opacity: 0.4;
+  transform: rotate(45deg);
+}
+.benefits-img{
+  width: 95%;
+  z-index: 2;
+}
+.achive-img::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 80px;
+    z-index: 1;
+    background-color: #876585;
+    border-radius: inherit;
+    height: 90%;
+    width: 90%;
+    border-radius: 5px;
 }
     
