@@ -7,23 +7,23 @@ const Benefits = () => {
    let arr = [
             {
             icon: "bi bi-journal-bookmark-fill",
-            title: "Business Strategy",
-            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            title: "Experience",
+            desc: "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
         },
         {
-            icon: "bi bi-stack",
-            title: "Website Development",
-            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            icon: "bi bi-dice-3",
+            title: "Motivation",
+            desc: "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
         },
         {
-            icon: "bi bi-people",
-            title: "Marketing & Reporting",
-            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            icon: "bi bi-mortarboard-fill",
+            title: "Goals",
+            desc: "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
         },
         {
-            icon: "bi bi-tv",
-            title: "Mobile App Development",
-            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            icon: "bi bi-bullseye",
+            title: "Vision",
+            desc: "Lorem ipsum dolor sit amet ametus conso tetur ading elitor fugit piatur iusto provid."
         },
        
     ]
@@ -48,18 +48,12 @@ const Benefits = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 pt-5">
-              
-                  <div>
-
-                       <div className="row">
-                        {arr.map((item) => {
-                            return <Achive icon={item.icon} title={item.title} desc={item.desc} />
-                        })}
-                       </div>
+            <div className="col-lg-6 pt-5">  
+                  <div className="row gy-3">
+                    {arr.map((item) => {
+                      return <Achive  icon={item.icon} title={item.title} desc={item.desc} />
+                    })}
                   </div>
-                   
-
             </div>
           </div>
         </div>

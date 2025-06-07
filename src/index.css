@@ -17,6 +17,50 @@ header{
     left: 0;
     z-index: 1000;
 }
+.circle{
+  width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.3;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fcb0b4;
+}
+.x1 {
+    animation: movecircles 25s linear infinite;
+    transform: scale(0.6);
+    top: 150px;
+}
+.x2 {
+    left: 200px;
+    top: 200px;
+    transform: scale(0.6);
+    transform: scale(0.6);
+    transform: scale(0.6);
+    animation: movecircles 35s linear infinite;
+    
+}
+.x3 {
+    left: -250px;
+    bottom: 250px;
+    transform: scale(0.8);
+    transform: scale(0.8);
+    transform: scale(0.8);
+  
+}
+@keyframes movecircles {
+  0% {
+    transform: translate(0, 0) scale(0.6);
+  }
+  50% {
+    transform: translate(50px, 100px) scale(0.6);
+  }
+  100% {
+    transform: translate(0, 0) scale(0.6);
+  }
+}
 .nav-link {
   position: relative;
   cursor: pointer;
@@ -97,7 +141,7 @@ header{
   width: 200px;
   border-width: 1px;
   border-style: solid;
-  border-color: #8e5759;
+  border-color: #793c3f;
   opacity: 0.4;
  left: 42%;
 }
@@ -106,7 +150,7 @@ header{
   content: "";
   width: 18px;
   height: 18px;
-  background-color: #c27b7f;
+  background-color: #7d4b4d;
   top: -9px;
   opacity: 0.4;
   right: 50%;
@@ -117,7 +161,7 @@ header{
   content: "";
   width: 18px;
   height: 18px;
-  background: #c27b7f;
+  background: #78494b;
   top: -9px;
   left: 45% !important;
   opacity: 0.4;
@@ -138,5 +182,38 @@ header{
     height: 90%;
     width: 90%;
     border-radius: 5px;
+}
+
+.achieve-icon {
+  background-color: #d8a7a7; 
+  width: 60px;
+  height: 60px;
+  border-radius: 2px;
+  font-size: 24px;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+.achieve-item:hover {
+  background-color: #c27b7f; 
+  color: #fff;
+}
+
+.achieve-item:hover .achieve-icon {
+  border-radius: 62% 38% 46% 54% / 60% 63% 37% 40%;
+    background-color: #876585;
+    box-shadow: 3px 3px #fcb0b4;
+   transform: rotate(7deg);
+}
+
+.achive-tital {
+  transition: color 0.5s ease;
+}
+
+.description {
+  transition: color 0.5s ease;
+}
+.chapter-section{
+  background-color: #f5ebe6
 }
     
