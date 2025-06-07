@@ -1,7 +1,32 @@
 import React from 'react'
+import Achive from './Achive'
 
 
 const Benefits = () => {
+
+   let arr = [
+            {
+            icon: "bi bi-rss",
+            title: "Business Strategy",
+            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+        },
+        {
+            icon: "bi bi-stack",
+            title: "Website Development",
+            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+        },
+        {
+            icon: "bi bi-people",
+            title: "Marketing & Reporting",
+            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+        },
+        {
+            icon: "bi bi-tv",
+            title: "Mobile App Development",
+            desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
+        },
+       
+    ]
   return (
     <>
       <div className='section py-5 mt-4'>
@@ -28,14 +53,9 @@ const Benefits = () => {
                 <div className="row">
                   <div className="col-sm-6  ">
                     <div className="achieve-item h-100 p-4 rounded-2 bg-white">
-                      <div className="achieve-icon   d-flex align-items-center justify-content-center">
-                        <i className="bi bi-journal-bookmark-fill  mt-2" />
-                      </div>
-                      <h3 className="mt-4 achive-tital">Experience</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet ametus conso tetur ading
-                        elitor fugit piatur iusto provid.
-                      </p>
+                       {arr.map((item) => {
+                            return <Achive icon={item.icon} title={item.title} desc={item.desc} />
+                        })}
                     </div>
                   </div>
                 </div>
@@ -43,7 +63,6 @@ const Benefits = () => {
             </div>
           </div>
         </div>
-
       </div>
     </>
   )
