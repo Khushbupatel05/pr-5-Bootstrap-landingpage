@@ -6,7 +6,7 @@ const Benefits = () => {
 
    let arr = [
             {
-            icon: "bi bi-rss",
+            icon: "bi bi-journal-bookmark-fill",
             title: "Business Strategy",
             desc: "I throw myself down among the tall grass by the stream as I lie close to the earth."
         },
@@ -49,17 +49,17 @@ const Benefits = () => {
               </div>
             </div>
             <div className="col-lg-6 pt-5">
-              <div className='achive-content '>
-                <div className="row">
-                  <div className="col-sm-6  ">
-                    <div className="achieve-item h-100 p-4 rounded-2 bg-white">
-                       {arr.map((item) => {
+              
+                  <div>
+
+                       <div className="row">
+                        {arr.map((item) => {
                             return <Achive icon={item.icon} title={item.title} desc={item.desc} />
                         })}
-                    </div>
+                       </div>
                   </div>
-                </div>
-              </div>
+                   
+
             </div>
           </div>
         </div>
