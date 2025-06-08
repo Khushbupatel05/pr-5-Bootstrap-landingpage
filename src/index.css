@@ -216,4 +216,51 @@ header{
 .chapter-section{
   background-color: #f5ebe6
 }
-    
+.contact-form {
+  background-color: #f5ebe6;
+  border-bottom: 2px solid transparent;
+  border: none !important;
+}
+.contact-name{
+  padding: 11px !important;
+
+}
+.contact-content{
+   font-family: "Philosopher", sans-serif;
+   font-weight: 700;
+}
+.contact-icon i{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 17px;
+    background-color: #c27b7f;
+    color: #ffffff;
+    transition: all 0.5s;
+    box-shadow: 3px 3px #876585;
+    ;
+}   
+.contact-icon i:hover{
+    background-color: #876585;
+    box-shadow: none !important;
+} 
+.footer-bg{
+  background-color: #f5ebe6;
+}
+.footer-text{
+  line-height: 1.8;
+  font-size: 17px;
+}
+.footer-title{
+  color: #c27b7f;
+  font-size: 17px;
+  font-weight: 600;
+}
+.use-link{
+ color: #676768;
+ line-height: 1.9;
+ 
+}
