@@ -262,5 +262,10 @@ header{
 .use-link{
  color: #676768;
  line-height: 1.9;
- 
+}
+.accordian-title{
+   border-bottom: none;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 20px 0px rgba(1, 6, 33, 0.06);
 }
