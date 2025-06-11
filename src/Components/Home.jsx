@@ -1,7 +1,7 @@
-
 import React from 'react'
+import Button from './Button';
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className='hero-section vh-100 py-5'>
       <div>
@@ -22,8 +22,9 @@ const Home = () => {
                 <div>
                   <h1 className='text-capitalize mt-2 text-heading'>There is no friend as loyal as a book</h1>
                   <p className=' mb-3 text-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum quibusdam, assumenda quia explicabo.</p>
-                  <div>
+                  <div className='d-flex'>
                     <input type="email" name='email' placeholder='Enter Email' className='input rounded' />
+                    <Button btnName={props.name} />
                   </div>
                 </div>
               </div>
@@ -34,7 +35,6 @@ const Home = () => {
               <img src="image/hero.png" alt="" />
             </div>
           </div>
-
         </div>
       </div>
     </div>

@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <div>
-        <button>
-            subscribe
-        </button>
+      <button className={`button-primary`}>{props.btnName}</button>
     </div>
   )
 }

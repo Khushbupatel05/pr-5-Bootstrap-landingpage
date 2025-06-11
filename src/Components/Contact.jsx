@@ -1,16 +1,19 @@
 import React from 'react'
+import Sectionheading from './Sectionheading'
 
 const Contact = () => {
+
+    let title = "Write me anything  " ;
+    let des = " Contact"
     return (
         <>
             <div className="section bg-white py-5 mt-5 mb-4 pb-5">
                 <div className="container">
                     <div className="col-sm-12">
                         <div className="text-center ">
-                            <p className='text-uppercase  home-text fs-6 '> Contact </p>
-                            <h1 className='text-capitalize mt-2 tital'>Write me anything </h1>
+                           <Sectionheading title={title}  des={des}/>
                         </div>
-                        <div className='section-divider mt-4 position-relative mb-5'></div>
+                       
                     </div>
                     <div className="row">
                         <div className="col-lg-8 col-md-6 col-sm-12">
@@ -49,6 +52,7 @@ const Contact = () => {
                                         <br />
                                         <p>112 444 7900</p>
                                     </li>
+
                                     <li className='mb-3'>
                                         <span className='contact-content text-uppercase mb-1'>Email:</span>
                                         <br />

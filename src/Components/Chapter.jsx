@@ -1,7 +1,10 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
+import Sectionheading from './Sectionheading';
 
 const Chapter = () => {
+  let title = "Chapters we've covered";
+  let des = " Chapters"
   let arr = [
     {
       que: "Chapter 01",
@@ -36,12 +39,10 @@ const Chapter = () => {
     <>
       <div className="section chapter-section mt-5 mb-4 py-5">
         <div className="container">
-          <div className="col-sm-12">
-            <div className="text-center">
-              <p className='text-uppercase  home-text fs-6 '> Chapters </p>
-              <h1 className='text-capitalize mt-2 tital'>Chapters we've covered   </h1>
+          <div className=" col-sm-12">
+            <div className="text-center ">
+              <Sectionheading title={title} des={des} />
             </div>
-            <div className='section-divider mt-4 position-relative'></div>
           </div>
           <div className="row">
             <div className="col-lg-6 mb-lg-0">
@@ -57,7 +58,7 @@ const Chapter = () => {
               <div className="row mt-5 ">
                 {
                   arr.map((item, idx) => {
-                    return <Accordion defaultActiveKey="0" className='mt-3 ' >
+                    return <Accordion defaultActiveKey="0" className='mt-2' >
                       <Accordion.Item eventKey={`${idx}`}>
                         <Accordion.Header className='accordian-title'>{item.que}</Accordion.Header>
                         <Accordion.Body>
