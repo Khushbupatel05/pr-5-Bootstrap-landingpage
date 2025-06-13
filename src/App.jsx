@@ -8,6 +8,8 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import ContactMe from './Components/ContactMe';
 import TestimonialSlider from './Components/TestimonialSlider';
+import Pricing from './Components/Pricing';
+
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
     <Home />
     <Benefits/>
     <Chapter />
+    <Pricing />
+    
     <TestimonialSlider />
     <ContactMe />
     <Contact /> 

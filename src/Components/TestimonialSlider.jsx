@@ -1,4 +1,3 @@
-import React from 'react'
 import Sectionheading from './Sectionheading';
 
 const TestimonialSlider = () => {
@@ -22,4 +21,4 @@ const TestimonialSlider = () => {
     )
 }
 
-export default TestimonialSlider
+export default TestimonialSlider;

@@ -8,7 +8,7 @@ const Chapter = () => {
 
   return (
     <>
-      <div className="section chapter-section mt-5 mb-4 py-5">
+      <div className="section bg-color mt-5 mb-4 py-5">
         <div className="container">
           <div className=" col-sm-12">
             <div className="text-center ">
