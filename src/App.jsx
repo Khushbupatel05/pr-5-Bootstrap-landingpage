@@ -9,6 +9,8 @@ import Footer from './Components/Footer';
 import ContactMe from './Components/ContactMe';
 import TestimonialSlider from './Components/TestimonialSlider';
 import Pricing from './Components/Pricing';
+import ChapterPrevivew from './Components/ChapterPrevivew';
+import Author from './Components/Author';
 
 
 const App = () => {
@@ -18,8 +20,9 @@ const App = () => {
     <Home />
     <Benefits/>
     <Chapter />
-    <Pricing />
-    
+    <ChapterPrevivew />
+    <Pricing />  
+    <Author />
     <TestimonialSlider />
     <ContactMe />
     <Contact /> 

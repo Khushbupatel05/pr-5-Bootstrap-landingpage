@@ -351,6 +351,10 @@ header {
 .accordion-button:focus {
   box-shadow: none !important;
 }
+.preview{
+  width: 310.5px;
+    margin-right: 18px;
+}
 
 .pricing_title {
   font-family: "Philosopher", sans-serif !important;
@@ -408,4 +412,21 @@ header {
     background: #c27b7f;
     color: #ffffff;
     transition-delay: 0.35s;
+}
+.author-img{
+  position: relative;
+    width: 100%;
+    padding: 10px;
+    background-color: #c27b7f;
+    border-radius: 5px;
+}
+.author-img img{
+  max-width: 100%;
+    height: auto;
+}
+.author-content h4{
+  font-family: "Philosopher", sans-serif;
+  color: #2f4858;
+  font-weight: 700;
+  font-size: 24px;
 }
