@@ -1,8 +1,13 @@
 import Sectionheading from './Sectionheading';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 const TestimonialSlider = () => {
 
-     let title = "What people said about my books";
+    let title = "What people said about my books";
     let des = " Testimonials"
     return (
         <>
@@ -13,6 +18,26 @@ const TestimonialSlider = () => {
                             <div className="text-center ">
                                 <Sectionheading title={title} des={des} />
                             </div>
+                        </div>
+                        <div>
+                            <Swiper 
+                                slidesPerView={3}
+                                spaceBetween={30}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                modules={[Pagination]}
+                                className="mySwiper">
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                                <SwiperSlide>lorem</SwiperSlide>
+                            </Swiper>
                         </div>
                     </div>
                 </div>
