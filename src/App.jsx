@@ -11,6 +11,7 @@ import TestimonialSlider from './Components/TestimonialSlider';
 import Pricing from './Components/Pricing';
 import ChapterPrevivew from './Components/ChapterPrevivew';
 import Author from './Components/Author';
+import Video from './Components/Video';
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
     <Pricing />  
     <Author />
     <TestimonialSlider />
+    <Video />
     <ContactMe />
     <Contact /> 
     <Footer />

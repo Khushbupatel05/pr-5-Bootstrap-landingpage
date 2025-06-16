@@ -430,3 +430,13 @@ header {
   font-weight: 700;
   font-size: 24px;
 }
+.card-line{
+  border-top: 1px solid #c27b7f;
+}
+.section-video {
+  background-image: url("/images/ctav4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
