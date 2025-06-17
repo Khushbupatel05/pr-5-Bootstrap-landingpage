@@ -12,6 +12,7 @@ import Pricing from './Components/Pricing';
 import ChapterPrevivew from './Components/ChapterPrevivew';
 import Author from './Components/Author';
 import Video from './Components/Video';
+import Blog from './Components/Blog';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
     <Author />
     <TestimonialSlider />
     <Video />
+    <Blog />
     <ContactMe />
     <Contact /> 
     <Footer />
