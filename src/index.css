@@ -447,6 +447,7 @@ header {
 }
 .icon-color{
   color: #c27b7f;
+  font-size: 40px;
 }
 .mySwiper {
   width: 100%;
@@ -489,5 +490,26 @@ header {
     opacity: 0;
   }
 }
-
+.icon{
+  color: #c27b7f;
+}
+.card{
+      box-shadow: 0px 1px 15px 0px rgba(1, 6, 33, 0.06);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-title{
+  color: #c27b7f !important;
+   font-family: "Philosopher", sans-serif !important;
+   font-size: 24px;
+   font-weight: 700;
+}
+.card-text{
+  color: #2f4858;
+}
+.contactme-icon{
+    opacity: 0.3;
+    color: #c27b7f;
+    font-size: 140px;
+}
 

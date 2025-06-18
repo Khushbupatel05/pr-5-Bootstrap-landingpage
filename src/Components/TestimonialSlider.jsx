@@ -77,7 +77,7 @@ const TestimonialSlider = () => {
                                 <SwiperSlide key={index}>
                                     <Card className="border-0 bg-transparent testimony-card">
                                         <Card.Body className='bg-white rounded-2 p-3'>
-                                            <div className="quote-icon text-center fs-1 mb-3 icon-color">
+                                            <div className="quote-icon text-center  mb-3 icon-color">
                                                 <i className={testimonial.icon}></i>
                                             </div>
                                             <Card.Text className="mb-5 my-4  fs-5 testimony-txt">

@@ -13,6 +13,8 @@ import ChapterPrevivew from './Components/ChapterPrevivew';
 import Author from './Components/Author';
 import Video from './Components/Video';
 import Blog from './Components/Blog';
+import Events from './Components/Events';
+import Books from './Components/Books';
 
 
 
@@ -26,6 +28,8 @@ const App = () => {
     <ChapterPrevivew />
     <Pricing />  
     <Author />
+    <Books />
+    <Events />
     <TestimonialSlider />
     <Video />
     <Blog />
