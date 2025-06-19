@@ -351,9 +351,10 @@ header {
 .accordion-button:focus {
   box-shadow: none !important;
 }
-.preview{
+
+.preview {
   width: 310.5px;
-    margin-right: 18px;
+  margin-right: 18px;
 }
 
 .pricing_title {
@@ -369,90 +370,103 @@ header {
   color: #2f4858;
   font-weight: 700;
 }
-.pricing-btn{
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 3px;
-    overflow: hidden;
-    text-decoration: none;
-    background-color: transparent;
-    color: #c27b7f;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    text-align: center;
+
+.pricing-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 3px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: transparent;
+  color: #c27b7f;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  text-align: center;
 }
-.pricing-btn::after{
-    content: "";
-    position: absolute;
-    width: 15px;
-    height: 100%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #c27b7f;
-    transition: all 0.5s ease;
-    top: 0px;
-    left: 0px;
-    border-right: none;
+
+.pricing-btn::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c27b7f;
+  transition: all 0.5s ease;
+  top: 0px;
+  left: 0px;
+  border-right: none;
 }
-.pricing-btn::before{
-    content: "";
-    position: absolute;
-    width: 15px;
-    height: 100%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #c27b7f;
-    transition: all 0.5s ease;
-    top: 0px;
-    left: 117px;
-    border-left: none;
+
+.pricing-btn::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c27b7f;
+  transition: all 0.5s ease;
+  top: 0px;
+  left: 117px;
+  border-left: none;
 }
-.pricing-btn:hover{
-    text-decoration: none;
-    background: #c27b7f;
-    color: #ffffff;
-    transition-delay: 0.35s;
+
+.pricing-btn:hover {
+  text-decoration: none;
+  background: #c27b7f;
+  color: #ffffff;
+  transition-delay: 0.35s;
 }
-.author-img{
+
+.author-img {
   position: relative;
-    width: 100%;
-    padding: 10px;
-    background-color: #c27b7f;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: #c27b7f;
+  border-radius: 5px;
 }
-.author-img img{
+
+.author-img img {
   max-width: 100%;
-    height: auto;
+  height: auto;
 }
-.author-content h4{
+
+.author-content h4 {
   font-family: "Philosopher", sans-serif;
   color: #2f4858;
   font-weight: 700;
   font-size: 24px;
 }
-.card-line{
+
+.card-line {
   border-top: 1px solid #c27b7f;
 }
+
 .section-video {
   background-image: url('/image/ctav4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  min-height: 400px; 
+  min-height: 400px;
 }
-.video-btn i{
-    position: relative;
-    top: 50%;
+
+.video-btn i {
+  position: relative;
+  top: 50%;
 }
-.icon-color{
+
+.icon-color {
   color: #c27b7f;
   font-size: 40px;
 }
+
 .mySwiper {
   width: 100%;
   padding-bottom: 40px;
 }
+
 .waves-block {
   position: relative;
   width: 120px;
@@ -473,9 +487,11 @@ header {
 .wave-1 {
   animation-delay: 0s;
 }
+
 .wave-2 {
   animation-delay: 0.5s;
 }
+
 .wave-3 {
   animation-delay: 1s;
 }
@@ -485,31 +501,82 @@ header {
     transform: scale(0.5);
     opacity: 0.8;
   }
+
   100% {
     transform: scale(2);
     opacity: 0;
   }
 }
-.icon{
+
+.icon {
   color: #c27b7f;
 }
-.card{
-      box-shadow: 0px 1px 15px 0px rgba(1, 6, 33, 0.06);
-    border-radius: 5px;
-    overflow: hidden;
-}
-.card-title{
-  color: #c27b7f !important;
-   font-family: "Philosopher", sans-serif !important;
-   font-size: 24px;
-   font-weight: 700;
-}
-.card-text{
-  color: #2f4858;
-}
-.contactme-icon{
-    opacity: 0.3;
-    color: #c27b7f;
-    font-size: 140px;
+
+.card {
+  box-shadow: 0px 1px 15px 0px rgba(1, 6, 33, 0.06);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
+.card-title {
+  color: #c27b7f !important;
+  font-family: "Philosopher", sans-serif !important;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #2f4858;
+}
+
+.contactme-icon {
+  opacity: 0.3;
+  color: #c27b7f;
+  font-size: 140px;
+}
+
+.award-icon {
+  font-Size: 60px;
+  top: 10px;
+  right: 10px;
+  opacity: 0.1;
+}
+.award-title{
+ font-family: "Philosopher", sans-serif !important;
+ font-size: 28px;
+ color: #2f4858;
+ margin-bottom: 20px;
+ font-weight: 700;
+}
+.award-dec{
+  font-size: 17px;
+}
+.allbutton{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 20px;
+    pointer-events: auto;
+    cursor: pointer;
+    background: #c27b7f;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 10px 30px;
+    line-height: 30px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+.allbutton::before{
+    content: "";
+    background: #c27b7f;
+    width: 125%;
+    left: -12%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

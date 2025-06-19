@@ -10,43 +10,43 @@ const TestimonialSlider = () => {
         {
             icon: "bi bi-quote",
             text: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio...`,
-            name: "Junl Sarukh",
-            role: "CEO Of Softing",
+            name: "person-1",
+            role: "CEO ",
             image: "/image/user-1.png"
         },
         {
             icon: "bi bi-quote",
             text: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio...`,
-            name: "Anil Spia",
-            role: "Director of Softing",
+           name: "person-1",
+            role: "CEO ",
             image: "/image/user-2.png"
         },
         {
             icon: "bi bi-quote",
             text: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio...`,
-            name: "Paul Munni",
-            role: "Developer of Softing",
+           name: "person-1",
+            role: "CEO ",
             image: "/image/user-1.png"
         },
         {
             icon: "bi bi-quote",
             text: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio...`,
-            name: "Paul Munni",
-            role: "Developer ",
+            name: "person-1",
+            role: "CEO ",
             image: "/image/user-2.png"
         },
         {
             icon: "bi bi-quote",
             text: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio...`,
-            name: "Paul Munni",
-            role: "Developer of Softing",
+          name: "person-1",
+            role: "CEO ",
             image: "/image/user-1.png"
         },
         {
             icon: "bi bi-quote",
             text: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio...`,
-            name: "Paul Munni",
-            role: "Developer of Softing",
+            name: "person-1",
+            role: "CEO ",
             image: "/image/user-2.png"
         },
     ];
@@ -83,7 +83,7 @@ const TestimonialSlider = () => {
                                             <Card.Text className="mb-5 my-4  fs-5 testimony-txt">
                                                 {testimonial.text}
                                             </Card.Text>
-                                            <div className="d-flex gap-4 mb-3 align-items-center card-line">
+                                            <div className="d-flex gap-4 mb-2 align-items-center card-line">
                                                 <img
                                                     src={testimonial.image}
                                                     alt={testimonial.name}

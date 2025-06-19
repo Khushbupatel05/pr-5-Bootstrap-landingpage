@@ -1,4 +1,4 @@
-import React from 'react'
+import Button from './Button';
 import Sectionheading from './Sectionheading'
 
 const Contact = () => {
@@ -31,9 +31,7 @@ const Contact = () => {
                                     <div className="mb-3">
                                         <textarea name="message" className="contact-message form-control w-100 "  rows={4}  id="contact-message" placeholder="Your Message" required defaultValue={""} />
                                     </div>
-                                    <button className=" fs-6 position-relative py-2 ps-4 pe-4 " >
-                                        Send Now
-                                    </button>
+                                   <Button btnName="Submit" />
                                 </form>
                             </div>
                         </div>
