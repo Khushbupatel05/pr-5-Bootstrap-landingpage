@@ -45,6 +45,12 @@ const Home = (props) => {
           <div className="col-lg-6 text-center">
             <div className="mb-5 pb-5">
               <img src="image/hero.png" alt="hero" className="img-fluid" />
+              {/* <div class="images-badge">
+                  <span>
+                    <span class="hero__images--badge--text1">NY</span>
+                    <span class="hero__images--badge--text2">best seller</span>
+                  </span>
+                </div> */}
             </div>
           </div>
         </div>
