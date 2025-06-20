@@ -22,7 +22,7 @@ const ContactMe = () => {
                 Feel free to contact me.
               </p>
               <h5 className="contact-content ct mb-4">+61 (0) 111 222 333</h5>
-              <Button />
+              <Button btnName="Send me a message" />
             </div>
           </div>
         </div>

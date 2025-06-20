@@ -1,3 +1,4 @@
+import Button from "./Button"
 
 const Footer = () => {
   return (  
@@ -69,10 +70,8 @@ const Footer = () => {
                         </div>
                         <form action="">
                             <div>
-                                <input type="email" name="email" placeholder="Email" id="subscriber-email" className="form-control p-2" ></input>
-                                <button className="mt-3">
-                                    <span>Subscribe</span>
-                                </button>
+                                <input type="email" name="email" placeholder="Email" id="subscriber-email" className="form-control p-2 mb-3" ></input>
+                             <Button btnName="Subscribe" />
                             </div>
                         </form>
                    </div>
