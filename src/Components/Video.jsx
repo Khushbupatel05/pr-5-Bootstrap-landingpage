@@ -22,17 +22,16 @@ const Video = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="ctav4__video-btn">
+            <div className="ctav4__ video-btn ">
               <a
                 href="https://youtu.be/dkxiTpwm0hs"
                 className="glightbox3 video-btn">
-               <i class="bi bi-play-circle-fill"></i>
+               <i className="bi bi-play-circle-fill text-white d-flex  justify-content-center  fs-1"></i>
               </a>
               <div className="promo-video">
-                <div className="waves-block">
+                <div className="waves-block ">
                   <div className="waves wave-1"></div>
-                  <div className="waves wave-2"></div>
-                 
+                  <div className="waves wave-2"></div>                
                 </div>
               </div>
             </div>
