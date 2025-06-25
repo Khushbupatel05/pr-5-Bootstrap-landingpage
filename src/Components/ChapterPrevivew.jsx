@@ -71,7 +71,7 @@ const ChapterPrevivew = () => {
                                 className="mySwiper"
                             >
                                 {preview.map((item, index) => (
-                                    <SwiperSlide key={index}>
+                                    <SwiperSlide id='preview-slider' key={index}>
                                         <Card className="border-0 ms-0 me-0 testimony-card">
                                             <Card.Body className='bg-white rounded-2 '>
                                                 <div className="d-flex  mb-3 align-items-center ">

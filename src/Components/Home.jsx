@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div className="hero-section vh-100 py-5 position-relative">
       {/* Decorative Circles */}

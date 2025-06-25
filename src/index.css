@@ -634,4 +634,9 @@ header {
 .allbutton:hover {
   color: #ffffff;
 }
-
+#preview-slider{
+  margin-right: 0px !important;
+}
+.pre-button{
+  margin-bottom: 10px !important;
+}

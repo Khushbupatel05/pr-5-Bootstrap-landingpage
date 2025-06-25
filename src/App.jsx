@@ -22,22 +22,22 @@ import Achivement from './Components/Achivement';
 const App = () => {
   return (
     <>
-    <Header/>
-    <Home />
-    <Benefits/>
-    <Chapter />
-    <ChapterPrevivew />
-    <Pricing />  
-    <Author />
-    <Achivement />
-    <Books />
-    <Events />
-    <TestimonialSlider />
-    <Video />
-    <Blog />
-    <ContactMe />
-    <Contact /> 
-    <Footer />
+      <Header />
+      <Home />
+      <Benefits />
+      <Chapter />
+      <ChapterPrevivew />
+      <Pricing />
+      <Author />
+      <Achivement />
+      <Books />
+      <Events />
+      <TestimonialSlider />
+      <Video />
+      <Blog />
+      <ContactMe />
+      <Contact />
+      <Footer />
     </>
   )
 }
