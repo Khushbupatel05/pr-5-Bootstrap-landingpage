@@ -1,5 +1,6 @@
 import React from 'react';
 import Sectionheading from './Sectionheading';
+import Button from './Button';
 
 const pricingData = [
     {
@@ -60,9 +61,7 @@ const Pricing = () => {
                                         <li key={idx} className='mb-4 py-1'>{feature}</li>
                                     ))}
                                 </ul>
-                                <div className='pricing-btn position-relative lh-lg rounded-1'>
-                                    
-                                </div>
+                                <Button btnName="BUY NOW"/>
                             </div>
                         </div>
                     ))}
