@@ -7,6 +7,7 @@ const Header = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
   return (
     <header>
       <div className="container">
@@ -16,7 +17,7 @@ const Header = () => {
               <img src="/image/wonted-logo.png" alt="logo" />
             </div>
             <nav className="d-flex">
-              <ul className='d-flex align-items-center d-none d-lg-flex justify-content-center gap-3 fw-semibold  m-0 menu'>
+              <ul className='d-flex align-items-center d-none d-lg-flex justify-content-center gap-3 fw-semibold m-0 menu'>
                 <li className='nav-link'>Home</li>
                 <li className='nav-link'>Benefits</li>
                 <li className='nav-link'>Chapters</li>
@@ -28,23 +29,36 @@ const Header = () => {
                 <li className='nav-link'>Contact</li>
               </ul>
             </nav>
-              <Button className="d-flex d-lg-none" variant="white" onClick={handleShow}>
-                <i className="bi bi-list"></i>
-              </Button>
+            <Button className="d-flex d-lg-none" variant="white" onClick={handleShow}>
+              <i className="bi bi-list"></i>
+            </Button>
           </div>
         </div>
       </div>
 
-      <Offcanvas show={show} onHide={handleClose}>
+      
+      <Offcanvas show={show} onHide={handleClose} placement="start">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>
+            <img src="/image/wonted-logo.png" alt="logo"  />
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <ul className="list-unstyled fw-semibold">
+            <li className='mb-3 nav-link' onClick={handleClose}>Home</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Benefits</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Chapters</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Pricing</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Author</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Events</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Reviews</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Blog</li>
+            <li className='mb-3 nav-link' onClick={handleClose}>Contact</li>
+          </ul>
         </Offcanvas.Body>
       </Offcanvas>
     </header>
   );
 };
-export default Header
+
+export default Header;

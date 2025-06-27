@@ -115,13 +115,6 @@ header {
   }
 }
 
-.nav-link {
-  position: relative;
-  cursor: pointer;
-  padding-bottom: 5px;
-  color: white;
-  transition: color 0.3s ease;
-}
 
 .achieve-item {
   box-shadow: 2px 0px 15px 5px rgba(1, 6, 33, 0.06);
@@ -141,23 +134,46 @@ header {
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
 }
+.menu{
+       position: relative;
+    transition: all 0.2s linear;
+    border-bottom: 1px solid transparent;
+    margin-left: 15px;
+    
+}
+
+
+.nav-link {
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: #000; 
+  font-weight: 500;
+}
+
 
 .nav-link::after {
   content: "";
   position: absolute;
   left: 50%;
+  bottom: -28px;
   transform: translateX(-50%);
-  bottom: 0 !important;
   width: 30px;
   height: 2px;
-  background-color: #c27b7f;
+  background: #c27b7f;
   opacity: 0;
-  transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+  transition: opacity 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+  
+}
+.nav-link:hover {
+  color: #c27b7f !important; 
 }
 
 .nav-link:hover::after {
   opacity: 1;
+  
 }
+
 
 .hero-section {
   position: relative !important;
