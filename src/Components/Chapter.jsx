@@ -16,13 +16,9 @@ const Chapter = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 mb-lg-0">
-              <div cl>
-                <div className="col-sm-12">
-                  <div className=' position-relative  pt-5 mt-5'>
-                    <img src="./image/hero-2.png" alt="" className='' />
-                  </div>
-                </div>
+            <div className="col-lg-6 mb-lg-0 ">
+              <div className="position-relative pt-5 mt-5">
+                <img src="./image/hero-2.png" alt="chapter image" className="img-fluid w-100" />
               </div>
             </div>
             <div className="col-lg-6 pt-5">

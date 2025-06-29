@@ -134,45 +134,42 @@ header {
   font-family: "Philosopher", sans-serif;
   font-weight: 700;
 }
-.menu{
-       position: relative;
-    transition: all 0.2s linear;
-    border-bottom: 1px solid transparent;
-    margin-left: 15px;
-    
-}
-
-
 .nav-link {
   position: relative;
   cursor: pointer;
   padding-bottom: 5px;
-  color: #000; 
+  color: #000;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 
 .nav-link::after {
   content: "";
   position: absolute;
-  left: 50%;
-  bottom: -28px;
+  left: 20px;
+  bottom: -6px;
   transform: translateX(-50%);
-  width: 30px;
+  width: 45px;
   height: 2px;
   background: #c27b7f;
   opacity: 0;
   transition: opacity 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
-  
 }
+
 .nav-link:hover {
-  color: #c27b7f !important; 
+  color: #c27b7f !important;
 }
 
 .nav-link:hover::after {
   opacity: 1;
-  
 }
+
+.offcanvas .nav-link {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 
 
 .hero-section {
@@ -224,7 +221,9 @@ header {
   border-style: solid;
   border-color: #793c3f;
   opacity: 0.4;
-  left: 42%;
+  position: relative;
+  margin: 0 auto; 
+  left: auto;     
 }
 
 .section-divider::before {

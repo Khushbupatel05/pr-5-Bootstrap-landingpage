@@ -14,7 +14,7 @@ import Author from './Components/Author';
 import Video from './Components/Video';
 import Blog from './Components/Blog';
 import Events from './Components/Events';
-import Books from './Components/Books';
+
 import Achivement from './Components/Achivement';
 
 
@@ -29,8 +29,7 @@ const App = () => {
       <ChapterPrevivew />
       <Pricing />
       <Author />
-      <Achivement />
-      <Books />
+      <Achivement />  
       <Events />
       <TestimonialSlider />
       <Video />

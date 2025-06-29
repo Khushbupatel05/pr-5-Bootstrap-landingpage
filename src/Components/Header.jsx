@@ -29,7 +29,7 @@ const Header = () => {
                 <li className='nav-link'>Contact</li>
               </ul>
             </nav>
-            <Button className="d-flex d-lg-none" variant="white" onClick={handleShow}>
+            <Button className="d-flex d-lg-none " variant="white" onClick={handleShow}>
               <i className="bi bi-list"></i>
             </Button>
           </div>
